@@ -10,7 +10,7 @@ header-position: 35% center
 
 #Family Migration Stories
 
-For US Immigration History, students have collected oral histories about their families' migration stories. Using a template inspired by the University of Minnesota's Immigration History Research Center's Immigration Stories project, students have drawn on class themes and additional research to tell their family's migration stories. 
+For US Immigration History, students have collected oral histories about their families' migration stories. Using a template inspired by the University of Minnesota's Immigration History Research Center's Immigration Stories project[citation](https://)cla.umn.edu/ihrc/immigrant-stories], students have drawn on class themes and additional research to tell their family's migration stories. 
 
 
 
