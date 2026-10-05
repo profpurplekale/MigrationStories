@@ -2,7 +2,7 @@
 title: "US Immigration History"
 layout: base
 date: 2026-10-13
-header-image: "/assets/images/sw-table.jpg"
+header-image: "/assets/images/immigration_collage.jpg"
 header-title: Family Migration Stories 
 header-subtitle: US Immigration History 2H Fall 2026 
 header-position: 35% center
