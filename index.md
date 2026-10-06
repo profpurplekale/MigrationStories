@@ -12,7 +12,7 @@ header-position: 35% center
 
 For US Immigration History, students have collected oral histories about their families' migration stories. Using a template inspired by the University of Minnesota's Immigration History Research Center's Immigration Stories project [^citation] students have drawn on class themes and additional research to tell their family's migration stories. 
 
-[^citation]:(https://cla.umn.edu/ihrc/immigrant-stories) 
+[^citation]: "Making an Immigrant Story with immigrantstories.umn.edu Curriculum for College Instructors," Immigration History Research Center, University of Minnesota.https://cla.umn.edu/ihrc/immigrant-stories 
 
 The card grid below links to the sample essays. The info on these cards come from the essay pages themselves. As students publish their essaysm, these will showcase students' work as the project develops.
 
