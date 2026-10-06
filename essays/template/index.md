@@ -39,11 +39,11 @@ Conclude the section about personal context and impacts here.
 ## Subheader 3 that frames your midterm assignment 
 <!--be sure to address any instructor feedback about your midterm assignment when you include it in this final project -->
 
-{% capture midterm_assignment %}
+<!-- insert {% capture midterm_assignment %} when adding an image-->
 Here you will want to include all or part of your midterm assignment. Be sure to provide transitions so that it fits in with your final project., and clarify how this component is part of your family migration story.
 
  Choose what photo, video, or image you will include for this section. For an object:  If you wrote about a song, you may want to include a youtube of the song, or if you wrote about a family recipe, you may want to include a high quality image of the particular dish or recipe card. For the journey:  If you wrote about actual migration experience, you may want to include a photograph of the journey, the site of origin, or destination site; or you may want to include a map with the physical route highlighted. For identity and place in US society: you may wish to include an image of a place or object, or a video that best captures the experience described in the oral history. 
-{% endcapture %}
+<!--insert {% endcapture %} when adding an image to this section-->
 
 {% include images/figure-wrap.html
   image-path="images/figure_2.jpg"
@@ -68,7 +68,7 @@ Here you will want to include all or part of your midterm assignment. Be sure to
 
 ## Conclusion 
 
-{% include typography/pullquote.html text="\"You can insert a key reflection about what you have learned researching family migration history or what you have learned about US migration history as a result of documenting your family's migration history.\"" %} 
+{% include typography/pullquote.html text="\"You may insert a key reflection about what you have learned researching family migration history or what you have learned about US migration history as a result of documenting your family's migration history.\"" %} 
 70-85 words. Conclude your project with your personal reflections about what you have learned as a result of this final project. You might address what you have learned about family members, family, migration, and/or U.S. history and society. 
 
  
