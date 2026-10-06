@@ -37,7 +37,7 @@ Be sure to break up your text into topical paragraphs.  Note that you will compl
 Conclude the section about personal context and impacts here. 
 
 
-## Subheader 3 that frames your midterm assignment 
+## Subheader 3 Midterm assignment (revised)
 <!--be sure to address any instructor feedback about your midterm assignment when you include it in this final project -->
 
 <!-- insert {% capture midterm_assignment %} when adding an image-->
@@ -45,7 +45,7 @@ Conclude the section about personal context and impacts here.
 Here you will want to include all or part of your midterm assignment. Be sure to provide transitions so that it fits in with your final project., and clarify how this component is part of your family migration story.
 
  Choose what photo, video, or image you will include for this section. For an object:  If you wrote about a song, you may want to include a youtube of the song, or if you wrote about a family recipe, you may want to include a high quality image of the particular dish or recipe card. For the journey:  If you wrote about actual migration experience, you may want to include a photograph of the journey, the site of origin, or destination site; or you may want to include a map with the physical route highlighted. For identity and place in US society: you may wish to include an image of a place or object, or a video that best captures the experience described in the oral history. 
- 
+
 <!--insert {% endcapture %} when adding an image to this section-->
 
 {% include images/figure-wrap.html
