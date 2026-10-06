@@ -46,15 +46,15 @@ Include all or part of your midterm assignment. Be sure to provide transitions s
 
  Choose what photo, video, or image you will include for this section. For an object:  If you wrote about a song, you may want to include a youtube of the song, or if you wrote about a family recipe, you may want to include a high quality image of the particular dish or recipe card. For the journey:  If you wrote about actual migration experience, you may want to include a photograph of the journey, the site of origin, or destination site; or you may want to include a map with the physical route highlighted. For identity and place in US society: you may wish to include an image of a place or object, or a video that best captures the experience described in the oral history. 
 
-<!--insert {% endcapture %} when adding an image to this section-->
+<!--insert {% endcapture %} when adding an image to this section and add % directly within the curly bracets line 51 and line 57 below-->
 
-{% include images/figure-wrap.html
+{include images/figure-wrap.html
   image-path="images/figure_2.jpg"
   image-position="right"
   image-width="45%"
   caption="Include a caption for the photo, video, or image and provide credit for the image."
   text=midterm_assignment_text
-%}
+}
 <!--figure-wrap.html will place your visual object side by side with your text.  You may copy the code above to include an audio clip, or you may use embed codes from YouTube if you wish to include a video clip, or you may upload a high quality .jpg or .png to the image folder to include an image -->
 
 ## Subheader 4: frame how your family's migration story relates to the migration stories addressed in class 
