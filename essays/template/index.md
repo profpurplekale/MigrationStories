@@ -7,7 +7,8 @@ summary: How a Mesoamerican crop became the defining flavor of the American Sout
 ---
 
 # "Template: Your Family Migration Story" 
-  <!-Use the same title that you used above for this intro section-->
+  
+  <!-- Use the same title that you used above for this intro section-->
 
 
 Replace this text with your 2-3 sentence introduction to your family migration story. Identify the 3 key elements of this story major events, historical developments, and/or objects (WHEN WHERE WHAT WHO), that illustrate WHY AND HOW your famiy's migration story relates to US history and patterns of migration in US history. This is your overall thesis for your family migration story.  Try to use accessible language that a high schooler can understand. 100-150 words. 
