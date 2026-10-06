@@ -23,11 +23,10 @@ This section should be 150-250 words. Explain how your family's migration story 
 
 ## SUBHEADER 2 that frames personal context and impacts
 
-{% capture historical_context_and_impacts %}
 This section should be 150-200 words. Draw from your oral history to explain the personal reasons for your family's movement to a different geographic location. If the relocation took place under pressure or coercion, that still might explain the personal decision to move. What were the personal push factors (motivations to leave)? Were there any personal pull factors (motivations to move to a particular destination)? Was there any evidence of chain migration (family/community connections that provided support, jobs, familiar culture)? 
  
 Be sure to break up your text into topical paragraphs.  Note that you will complete this paragraph after the audio clip and optional pull quote below. 
-{% endcapture %}
+
 {% include media/audio.html
   src="/assets/audio/interview.mp3"
 %}
@@ -64,9 +63,7 @@ Here you will want to include all or part of your midterm assignment. Be sure to
   image-position="left"
   image-width="30%"
   caption="Include caption and credit for the image."}
-  <!--upload figure_3.jpg to assets/images OR you may create a carousel of images if you have them about your family's migration history using this code below
-  {% assign images_list = "images/carousel_1.jpg,images/carousel_2.jpg,images/carousel_3.jpg" | split: ',' %}
-{% include images/carousel.html id="chile-types" images=images_list %}-->
+  <!--upload figure_3.jpg to assets/images OR you may create a carousel of images if you have them about your family's migration history using the code for an Image Carousel found at https://xanthan-web.github.io/docs/reference/images#troubleshooting -->
 
 
 ## Conclusion 
