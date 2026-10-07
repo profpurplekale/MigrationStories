@@ -6,7 +6,7 @@ header-image: "/assets/images/immigration_collage.jpg"
 header-zoom: 95%
 header-title: Family Migration Stories 
 header-subtitle: US Immigration History 2H Fall 2026 
-header-subtitle-zoom: 100%
+header-subtitle-zoom: 120%
 header-position: 35% center
 ---
 
