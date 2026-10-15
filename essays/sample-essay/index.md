@@ -23,7 +23,7 @@ summary: "From a small southern Chinese village to metropolitan Chicago: my gran
 # Upload your image into the "images" folder next to this file, then type its file name below.
 lead-image: images/qzfong.jpg
 lead-image-alt: "Black-and-white photograph of a smiling man in a buttoned jacket holding a baby in one arm and a straw hat in the other."
-lead-image-caption: "Wing Ak Fong holding a child in Guangdong Province, China. Courtesy of the Fong family."
+lead-image-caption: "Sample text."
 
 # Optional: a different small image for the home page card.
 # If you leave this out, the card uses your lead-image.
