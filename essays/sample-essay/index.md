@@ -1,7 +1,7 @@
 ---
 title: "Template: Your Family Migration Story"  #Replace with title of your final project
 layout: default
-header-image: images/qzfong.jpg <!--Be sure to upload the .jpg or .png you have chosen for the primary image for your story under "images" _within_ your final project folder. Copy and paste the .jpg or .png file title here and below for the thumbnail-->
+#<!--Be sure to upload the .jpg or .png you have chosen for the primary image for your story under "images" _within_ your final project folder. Copy and paste the .jpg or .png file title here and below for the thumbnail-->
 thumbnail: images/qzfong.jpg
 summary: From a small southern Chinese village to metropolitan Chicago: my grandfather's search for Gold Mountain. #Replace this summary with your one sentence summary of your family migration story. 
 ---
