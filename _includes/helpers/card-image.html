@@ -17,7 +17,8 @@
   The img inside fills the wrapper 100%, so transform: scale() is clipped by the wrapper's overflow: hidden.
 {% endcomment %}
 
-{% capture card_image_url %}{% include helpers/image-path.html image-path=include.card.thumbnail page-dir=include.card.dir %}{% endcapture %}
+{% assign card_image_path = include.card.thumbnail | default: include.card.lead-image %}
+{% capture card_image_url %}{% include helpers/image-path.html image-path=card_image_path page-dir=include.card.dir %}{% endcapture %}
 {% assign thumb_pos = include.card.thumbnail-position | default: 'center' %}
 {% assign thumb_zoom = include.card.thumbnail-zoom %}
 
