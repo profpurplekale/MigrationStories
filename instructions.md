@@ -1,235 +1,119 @@
 ---
-title: Template Instructions for Students
+title: Instructions for Students
 layout: base
+header-image: "/assets/images/immigration_collage.jpg"
+header-tier: banner
+header-title: Instructions for Students
+header-position: 35% center
 ---
 
-# Getting Started with Your Class Project Site
+# How to publish your migration story
 
-<style>
-/* Page-specific rhythm tuning for long instructional content */
-h2 {
-   margin-top: 1.6rem;
-   margin-bottom: 0.6rem;
-}
+You do not need to know how to code. You will copy a template, type your own words, and upload your pictures and audio. Your essay then appears on the home page automatically.
 
-h3 {
-   margin-top: 1.1rem;
-   margin-bottom: 0.4rem;
-}
+## Step 1: Open the editor
 
-p,
-ul,
-ol {
-   margin-bottom: 1rem;
-}
+1. Go to this project's page on GitHub and sign in.
+2. Press the **period key (`.`)** on your keyboard. A code editor opens in your browser.
+3. Your files are listed on the left.
 
-hr {
-   margin: 1rem 0;
-}
-</style>
+## Step 2: Copy the template
 
-This page guides you through setting up your own project folder in this class project template. Once you've created your folder and added your first page, **you can delete this file**—it's just here to help you get started.
+1. In the left list, open the **`essays`** folder. Find the **`template`** folder.
+2. Right-click **`template`** and choose **Copy**. Right-click the **`essays`** folder and choose **Paste**.
+3. Right-click the new folder and choose **Rename**. Use your name in lowercase with hyphens, like `maria-lopez`. No spaces or capital letters.
 
-## What You Have
+Your folder looks like this:
 
-Your instructor has already set up this template with:
-- A **homepage** that introduces class projects (`index.md`)
-- **Sample essay folders** that show what a finished project looks like
-- An **essays folder** structure where you'll add your own project
-- All the styling and design already done for you
-
-## Quick Start: Your First Steps
-
-### Step 1: Open the Code Editor in Your Browser
-
-The easiest way to edit your site is using GitHub's built-in code editor. **No need to download anything!**
-
-1. Go to your repository on GitHub
-2. Press the **`.` (period) key** on your keyboard
-   - This opens VS Code in your browser
-   - You'll see all your files on the left side
-3. You're now ready to edit!
-
-
-### Step 2: Create Your Project Folder
-
-Your project needs its own folder. Here's how:
-
-1. In the VS Code sidebar, find the `essays/` folder
-2. Right-click on `essays/` and select **"New Folder"**
-3. Name your folder using **kebab-case** (lowercase with hyphens, no spaces)
-   - ✅ Good examples: `great-fermentation-debate`, `pigeon-conspiracy`, `hot-dog-sandwich`
-   - ❌ Bad examples: `Great Fermentation Debate` (spaces), `great_fermentation_debate` (underscores)
-4. Press Enter to create the folder
-
-**What your folder structure will look like:**
 ```
 essays/
-├── your-project-name/
-│   ├── images/           (create this next)
-│   └── index.md          (create this next)
+  maria-lopez/
+    index.md        <- your essay
+    images/         <- your pictures
+    audio/          <- your MP3 clip
 ```
 
+## Step 3: Fill in the top of your essay
 
-### Step 3: Create an Images Folder
+Open `index.md` in your folder. At the very top, between the two lines of dashes, type your information after each colon. Keep the quotation marks.
 
-Inside your new project folder, you need a folder for images:
+| Line | What to write |
+|---|---|
+| `title` | The title of your project |
+| `student` | Your name |
+| `kicker` | A short label for the home page card, like "Village to City" |
+| `summary` | One sentence about your story |
+| `lead-image` | The file name of your main image |
+| `lead-image-alt` | A short description of the image for people using screen readers |
+| `lead-image-caption` | Caption and source citation for the main image |
 
-1. Right-click on your new folder (e.g., `your-project-name/`)
-2. Select **"New Folder"**
-3. Name it `images`
-4. Press Enter
+## Step 4: Write your essay
 
+Your essay has the same parts, in the same order, as the template. Replace each paragraph with your own writing. Keep the lines that start with `##`, but change the words after them to your own subheaders. Anything inside a `{% raw %}{% include ... %}{% endraw %}` block is a picture, audio clip, or video; you only change the text inside the quotation marks.
 
-### Step 4: Copy a Sample Index File
+| Order | Part | What to write | Length |
+|---|---|---|---|
+| 1 | **Title** | The title of your project. It goes in the `title` line at the top. | Short and specific |
+| 2 | **Lead image** | One high-quality, small-ish photograph or object that introduces your family. Set in the top lines (`lead-image`). The caption must cite the source. | Caption: one or two lines |
+| 3 | **Introduction** | Introduce your family: who they are, where they came from, where they went, and when. | 100-120 words |
+| 4 | **Subheader 1: Historical context and impacts** | A short subheader, then a paragraph that connects your family's story to larger history using secondary sources from class. Cite them in Chicago style. | Subheader 4-8 words; paragraph 150-250 words |
+| 5 | **Subheader 2: Personal context** | A subheader, then your 1-2 minute audio (MP3) or video (YouTube) clip from the oral history, with a caption and citation. | Caption 10-25 words |
+| 6 | **Subheader 3: The oral history as a whole** | Describe the journey as a whole, the family, one important object, and questions of identity and place. Follow it with a second image and citation. | Paragraph 300-350 words; image caption 20-30 words |
+| 7 | **Subheader 4: Other migration stories** | Compare your family's story with others from class, then add a third image and citation. | Paragraph 125-175 words; image caption 20-30 words |
+| 8 | **Concluding subheader** | Reflect on what you learned about your family, migration, and history. | Final paragraph 70-85 words |
+| 9 | **References** | List your oral history interview and the secondary sources you cited. | Chicago style |
 
-Now you need to create your first essay page. You can copy from one of the samples:
+Tips:
 
-1. Look in the `essays/` folder—you'll see sample folders
-2. Open one of them and find the `index.md` file inside
-3. **Copy the entire contents** (select all the text and copy)
-4. Right-click on your project folder and select **"New File"**
-5. Name it `index.md`
-6. **Paste the sample content** into your new file
-7. Save it (Ctrl+S or Cmd+S)
+- Write your words in the template's paragraphs, directly under each subheader. Do not move or delete the picture, audio, and video blocks; just edit them.
+- Your lead image and the other images should be sharp and well lit. Always say where each one came from.
+- The summary you wrote in Step 3 appears under your title and on your card on the home page, so keep it to one clear sentence.
+- To see how finished essays look, open any of the sample essays on the Essays page. They are placeholders only, so replace everything with your own work.
 
-Now you have a starting point! You can edit this file to add your own title, introduction, and content.
+## Step 5: Add your pictures
 
+1. Right-click the **`images`** folder inside your folder and choose **Upload...**. Pick your image.
+2. In `index.md`, find the picture block you want to change and type your image's file name:
 
-## Your First Edits
-
-### Update the Front Matter (Top of Your File)
-
-At the very top of `index.md`, you'll see something like:
-
-```yaml
----
-layout: base
-title: Your Project Title
----
+```
+{% raw %}{% include essay/figure.html
+  image="images/my-photo.jpg"
+  alt="Short description of the picture"
+  caption="What it shows and where it came from."
+%}{% endraw %}
 ```
 
-Change the `title` to match your actual project. That's it!
+Use lowercase file names with hyphens and no spaces, like `grandmothers-suitcase.jpg`. Add `size="small"` or `size="large"` if you want a different size.
 
+## Step 6: Add your audio or video
 
-### Add Your Content
+**Audio (MP3).** Upload your MP3 into the **`audio`** folder. Then change the file name in the audio block:
 
-Below the `---` lines, replace the sample content with your own writing, analysis, images, etc. Keep the same structure and formatting.
-
-
-### Add Your Images
-
-1. In VS Code, right-click on your `images/` folder
-2. Select **"Upload..."** and choose image files from your computer
-3. Once uploaded, you can reference them in your `index.md` file with:
-   ```markdown
-   ![description]({{ site.baseurl }}/essays/your-project-name/images/image-name.jpg)
-   ```
-
-**Image naming tips:**
-- Use **lowercase only** (no capitals)
-- Use **hyphens** between words, not spaces (e.g., `band-photo.jpg` not `band photo.jpg`)
-- Make names **descriptive** (e.g., `stage-setup.jpg` instead of `photo1.jpg`)
-
-
-## Understanding the Layout
-
-When you look at a sample project, you'll see different "layout" options at the top:
-
-- **`layout: base`** — Simple, clean page with navigation and footer
-- **`layout: scrollstory`** — Fancy scrolling effects with background images (more advanced!)
-- **`layout: map`** — If your project involves a map or spatial elements
-
-Start with `layout: base` unless your instructor specifies otherwise.
-
-
-## Editing Your Files
-
-### How to Make Changes
-
-1. Open VS Code in your browser (press `.` key)
-2. Click the file you want to edit in the left sidebar
-3. Type to make changes
-4. Press **Ctrl+S** (or **Cmd+S** on Mac) to save
-5. Your changes appear on your website automatically!
-
-
-### Using Markdown
-
-You don't need to know HTML! Just use simple **markdown** formatting:
-
-```markdown
-# This is a heading (H1)
-
-## This is a subheading (H2)
-
-**This text is bold**
-
-*This text is italic*
-
-[This is a link](https://example.com)
-
-- Bullet point 1
-- Bullet point 2
-- Bullet point 3
+```
+{% raw %}{% include essay/audio.html
+  file="audio/my-clip.mp3"
+  caption="Who is speaking, what they describe, and your citation."
+%}{% endraw %}
 ```
 
-**Tip:** Look at the sample pages in the `essays/` folder to see examples of markdown you can copy!
+**Video (YouTube).** Upload your video to YouTube first (unlisted is fine). Delete the audio block and use this one, pasting the link you copied from YouTube:
 
+```
+{% raw %}{% include essay/video.html
+  url="https://www.youtube.com/watch?v=XXXXXXXXXXX"
+  caption="Who is speaking, what they describe, and your citation."
+%}{% endraw %}
+```
 
-## Using AI to Write and Format Your Essay
+## Step 7: Save
 
-You don't need to memorize markdown syntax or figure out image tags on your own. AI assistants like Claude or ChatGPT work well with Xanthan because the framework uses named, documented components.
+Press **Ctrl+S** (or **Cmd+S** on a Mac) to save each file. Then click the **Source Control** icon on the left, type a short message like "Add my essay", and click **Commit & Push**. Your essay will appear on the site in a few minutes.
 
-**A useful starter prompt:**
+## Troubleshooting
 
-> "I'm working on a class project essay using the Xanthan Jekyll framework. My essay is in `essays/my-project-name/index.md`. Here's the file: [paste your index.md]. I want to add an image on the right side of the text with a caption. The image is at `images/my-photo.jpg`. Can you show me the Xanthan include tag for that?"
+- **My essay isn't on the home page.** Make sure the file is named `index.md`, your folder is inside `essays`, and `draft: true` is not in your front matter.
+- **A picture doesn't show.** Check that the file name matches exactly, including capital letters and the `.jpg` or `.png` ending.
+- **The page looks broken.** Check that every line you changed at the top still has its quotation marks, and that you didn't delete the lines of dashes.
+- Still stuck? Ask your instructor, and tell them which step you were on.
 
-Other things AI handles well:
-- Drafting or editing your essay text
-- Formatting a bibliography in a consistent style
-- Fixing broken markdown (paste the problem section and ask what's wrong)
-- Explaining what any front matter field or component parameter does
-
-You can also paste your whole essay and ask: "Does this markdown look correct? Are there any formatting issues?"
-
-Start small—ask AI to help with one thing at a time—and you'll build confidence quickly.
-
-
-## Need Help?
-
-### Ask Your Instructor
-
-If something breaks or doesn't work:
-- Let your instructor know
-- Tell them what you were trying to do
-- Share a screenshot if helpful
-
-
-### Use AI Tools
-
-You can ask AI assistants like Claude or ChatGPT:
-- "How do I add an image to my markdown file?"
-- "How do I add a new section to my essay?"
-- "What's wrong with this code?" (paste your code and the error)
-- "Can you write this text in markdown format?"
-
-
-### Check your included Docs
-
-For more advanced features:
-- Browse the `/docs/` folder in your repository
-
-
-## When You're Ready to Clean Up
-Once you understand how to edit your site and you're happy with your project:
-
-1. **Delete this file** (`instructions.md`)
-   - Right-click it in VS Code and select "Delete"
-2. **Remove it from navigation** (if your instructor set that up)
-3. Keep your project folder and start adding your real content!
-
-
----
-
-**Questions?** Ask your instructor or check the [Xanthan documentation](https://xanthan-web.github.io/xanthan/).
+You can delete this page (`instructions.md`) at the end of the semester.
