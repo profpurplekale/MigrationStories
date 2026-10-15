@@ -25,7 +25,7 @@
   <div class="card-grid {{ grid_class }}">
     {% for card in sorted_cards %}
     {% if card.title %}
-      {% assign card_image = card.thumbnail %}
+      {% assign card_image = card.thumbnail | default: card.lead-image %}
       {% assign card_href = card.link | default: card.url %}
       {% capture card_href_resolved %}{% include helpers/link-path.html link=card_href %}{% endcapture %}
       {% comment %} Only auto-derived excerpts get truncated; authored summaries print in full. {% endcomment %}
