@@ -15,6 +15,8 @@ This page shows you how to change the words, headings, images, and audio in your
 
 If you have not made your essay folder yet, do the **Publish your story** tab first.
 
+Click any screenshot to see it larger. Click it again, press **Esc**, or use the **Close** button to come back to the instructions.
+
 ## Before you start: open your essay
 
 1. Go to your copy of the project on GitHub and sign in.
@@ -22,10 +24,10 @@ If you have not made your essay folder yet, do the **Publish your story** tab fi
    - Press the **period key (`.`)** on your keyboard. A code editor opens in a new browser tab.
    - If the period key doesn't work, look at the web address at the top of your browser. Change `github.com` to `github.dev` and press **Enter**. For example, `https://github.com/your-name/MigrationStories` becomes `https://github.dev/your-name/MigrationStories`.
 
-![The editor open in the browser, with the web address at the top and the files listed on the left]({{ '/assets/images/instructions/open-repo.png' | relative_url }})
+![The editor open in the browser, with the web address at the top and the files listed on the left]({{ '/assets/images/instructions/open-repo.png' | relative_url }}){: class="zoomable"}
 3. On the left, click the **`essays`** folder, then your own folder, then **`index.md`**. Your essay opens in the middle of the screen.
 
-![The file list with essays, then your folder, then index.md highlighted]({{ '/assets/images/instructions/open-essay.png' | relative_url }})
+![The file list with essays, then your folder, then index.md highlighted]({{ '/assets/images/instructions/open-essay.png' | relative_url }}){: class="zoomable"}
 
 You can click anywhere in the text and type, just like in a word processor.
 
@@ -42,7 +44,7 @@ If you want to leave the editor and return to your project on GitHub:
 
 The first lines of `index.md`, between the two rows of dashes (`---`), are called the **front matter**. This is where your title, name, and main image are set. Everything below the second row of dashes is the body of your essay.
 
-![The front matter at the top of index.md]({{ '/assets/images/instructions/front-matter.png' | relative_url }})
+![The front matter at the top of index.md]({{ '/assets/images/instructions/front-matter.png' | relative_url }}){: class="zoomable"}
 
 **Do not change or delete any quotation marks (`"`) that are already there.** Type your words between them. If a quotation mark disappears, your page can break.
 
@@ -60,7 +62,7 @@ lead-image: images/my-photo.jpg
 2. Select the old words with your mouse and type your own over them.
 3. Press **Ctrl+S** (**Cmd+S** on a Mac) to save.
 
-![A paragraph selected and ready to type over]({{ '/assets/images/instructions/edit-text.png' | relative_url }})
+![A paragraph selected and ready to type over]({{ '/assets/images/instructions/edit-text.png' | relative_url }}){: class="zoomable"}
 
 Things to keep in mind:
 
@@ -79,7 +81,7 @@ Headings are the lines that start with `#` marks.
 1. Find the heading line.
 2. Change only the words after the `##` and the space. Keep the two `#` marks.
 
-![A heading line selected, with the two # marks circled to keep]({{ '/assets/images/instructions/edit-heading.png' | relative_url }})
+![A heading line selected, with the two # marks circled to keep]({{ '/assets/images/instructions/edit-heading.png' | relative_url }}){: class="zoomable"}
 3. Save with **Ctrl+S**.
 
 A heading must have a space after the `#` marks. `##Journey` will not work, but `## Journey` will.
@@ -93,7 +95,7 @@ This is the large image at the top of your essay.
 1. In the left file list, open your folder. Right-click the **`images`** folder and choose **Upload...**.
 2. Choose your picture from your computer. It will appear inside `images`.
 
-![Right-clicking the images folder with Upload highlighted]({{ '/assets/images/instructions/upload-image.png' | relative_url }})
+![Right-clicking the images folder with Upload highlighted]({{ '/assets/images/instructions/upload-image.png' | relative_url }}){: class="zoomable"}
 3. In the front matter, change the three image lines:
 
 ```
@@ -104,7 +106,7 @@ lead-image-caption: "Who is in it, where, when, and where the picture came from.
 
 4. Type the file name exactly as it appears in the `images` folder, including capital letters and the ending (`.jpg`, `.png`).
 
-![The three lead-image lines filled in, with the matching file in the images folder]({{ '/assets/images/instructions/lead-image.png' | relative_url }})
+![The three lead-image lines filled in, with the matching file in the images folder]({{ '/assets/images/instructions/lead-image.png' | relative_url }}){: class="zoomable"}
 5. Save.
 
 Tips: use lowercase names with dashes and no spaces (`grandmothers-suitcase.jpg`). The "alt" line is for people who can't see the image, so describe what it shows.
@@ -125,16 +127,16 @@ Tips: use lowercase names with dashes and no spaces (`grandmothers-suitcase.jpg`
 
 4. Save.
 
-![An image block in the essay with the image path circled]({{ '/assets/images/instructions/include-image.png' | relative_url }})
+![An image block in the essay with the image path circled]({{ '/assets/images/instructions/include-image.png' | relative_url }}){: class="zoomable"}
 
 To change a picture that is already there, change only the file name after `image=`. To make it bigger or smaller, add a line `size="small"` or `size="large"` before the `%}`.
 
 ## Add audio
 
-1. Make sure your clip is an **MP3** file.
-2. Right-click the **`audio`** folder inside your essay folder and choose **Upload...**. Pick your MP3.
+1. Make sure your clip is an **MP3** or **WAV** file.
+2. Right-click the **`audio`** folder inside your essay folder and choose **Upload...**. Pick your audio file.
 
-![Right-clicking the audio folder with Upload highlighted]({{ '/assets/images/instructions/upload-audio.png' | relative_url }})
+![Right-clicking the audio folder with Upload highlighted]({{ '/assets/images/instructions/upload-audio.png' | relative_url }}){: class="zoomable"}
 3. In `index.md`, find the audio block (it starts with `{% raw %}{% include essay/audio.html{% endraw %}`) or paste this where you want the clip:
 
 ```
@@ -144,10 +146,10 @@ To change a picture that is already there, change only the file name after `imag
 %}{% endraw %}
 ```
 
-4. Change `my-clip.mp3` to the exact name of your file.
+4. Change `my-clip.mp3` to the exact name of your file, including the ending (`.mp3` or `.wav`).
 5. Write your caption, then save.
 
-![The audio block with the MP3 file name filled in]({{ '/assets/images/instructions/add-audio.png' | relative_url }})
+![The audio block with the audio file name filled in]({{ '/assets/images/instructions/add-audio.png' | relative_url }}){: class="zoomable"}
 
 ## Save your work and put it on the website
 
@@ -157,7 +159,7 @@ Saving with Ctrl+S only saves it in your browser. To publish your changes:
 2. Type a short message in the box, like "Edit my essay".
 3. Click **Commit & Push** (or the checkmark). If it asks whether to stage changes, choose **Yes**.
 
-![The Source Control icon, message box, and Commit and Push button]({{ '/assets/images/instructions/commit-change.png' | relative_url }})
+![The Source Control icon, message box, and Commit and Push button]({{ '/assets/images/instructions/commit-change.png' | relative_url }}){: class="zoomable"}
 4. Wait a few minutes, then follow the steps below to check that your change went live.
 
 ## Watch your change build (Actions tab)
@@ -168,7 +170,7 @@ Saving with Ctrl+S only saves it in your browser. To publish your changes:
 4. Look at the icon next to it: a yellow circle means it is still building, a green check means it worked, and a red X means something went wrong. Building usually takes a few minutes.
 5. If you see a red X, check your quotation marks and file names, then commit again. Ask your instructor if it keeps failing.
 
-![The Actions tab with a green check next to the latest run]({{ '/assets/images/instructions/view-website-building.png' | relative_url }})
+![The Actions tab with a green check next to the latest run]({{ '/assets/images/instructions/view-website-building.png' | relative_url }}){: class="zoomable"}
 
 ## Check your changes on your site
 
@@ -183,3 +185,28 @@ Saving with Ctrl+S only saves it in your browser. To publish your changes:
 - **The page looks broken.** Check that the quotation marks in the front matter are still there and that both rows of dashes (`---`) are still in place.
 - **You made a mistake.** Press **Ctrl+Z** to undo.
 - Still stuck? Ask your instructor and tell them which step you were on.
+
+<style>
+img.zoomable { display:block; width:auto; height:auto; max-width:min(100%,760px); max-height:70vh; border:1px solid #ccc; cursor:zoom-in; }
+#zoom-overlay { position:fixed; inset:0; background:rgba(0,0,0,.85); z-index:10000; display:none; align-items:center; justify-content:center; cursor:zoom-out; }
+#zoom-overlay.open { display:flex; }
+#zoom-overlay img { max-width:96vw; max-height:88vh; background:#fff; }
+#zoom-close { position:absolute; top:12px; right:16px; padding:.5rem 1rem; font-size:1rem; cursor:pointer; }
+</style>
+<div id="zoom-overlay" role="dialog" aria-label="Enlarged screenshot"><button id="zoom-close" type="button">Close &times;</button><img id="zoom-img" src="" alt=""></div>
+<script>
+(function () {
+  var overlay = document.getElementById('zoom-overlay');
+  var big = document.getElementById('zoom-img');
+  function close() { overlay.classList.remove('open'); big.src = ''; }
+  document.querySelectorAll('img.zoomable').forEach(function (img) {
+    img.addEventListener('click', function () {
+      big.src = img.src;
+      big.alt = img.alt;
+      overlay.classList.add('open');
+    });
+  });
+  overlay.addEventListener('click', close);
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+})();
+</script>
