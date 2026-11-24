@@ -2,4 +2,4 @@
 <nav aria-label="Instructions sections" style="display:flex;gap:.5rem;border-bottom:2px solid #ccc;margin:1rem 0 1.5rem;">
   <a href="{{ '/instructions/start-here' | relative_url }}"{% if here == 'start' %} aria-current="page" style="padding:.5rem 1rem;font-weight:bold;border-bottom:3px solid currentColor;"{% else %} style="padding:.5rem 1rem;"{% endif %}>Start here</a>
   <a href="{{ '/instructions' | relative_url }}"{% if here == 'publish' %} aria-current="page" style="padding:.5rem 1rem;font-weight:bold;border-bottom:3px solid currentColor;"{% else %} style="padding:.5rem 1rem;"{% endif %}>Publish your story</a>
-</nav>
+    <a href="{{ '/instructions/editing-your-essay' | relative_url }}"{% if here == 'editing' %} aria-current="page" style="padding:.5rem 1rem;font-weight:bold;border-bottom:3px solid currentColor;"{% else %} style="padding:.5rem 1rem;"{% endif %}>Editing your essay</a></nav>
